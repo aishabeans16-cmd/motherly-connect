@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Motherly Connect | Where Mothers Help Mothers</title>
+  <meta name="description" content="Motherly Connect is a supportive platform where mothers connect, share advice, and build community. New moms find help and guidance from experienced mothers." />
+  <meta name="keywords" content="motherhood, parenting, new moms, motherhood support, motherly connect, mom community" />
+  <meta name="author" content="Motherly Connect" />
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Comfortaa', cursive;
+    }
+
+    body {
+      background-color: #ffffff;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(90deg, #ffb6c1, #87cefa);
+      color: #fff;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      font-weight: 700;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: bold;
+      transition: opacity 0.3s;
+    }
+
+    nav a:hover {
+      opacity: 0.8;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: #f9f9f9;
+    }
+
+    .hero img {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .hero h2 {
+      font-size: 2rem;
+      margin: 20px 0;
+      color: #444;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      color: #555;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    section {
+      padding: 60px 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #444;
+      margin-bottom: 20px;
+      font-size: 1.8rem;
+    }
+
+    p {
+      margin-bottom: 15px;
+      color: #555;
+    }
+
+    .card {
+      background: #f4f4f4;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .form-container {
+      display: flex;
+      flex-direction: column;
+      max-width: 500px;
+    }
+
+    .form-container input,
+    .form-container textarea {
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1rem;
+    }
+
+    button {
+      background-color: #ff7f50;
+      color: #fff;
+      border: none;
+      border-radius: 25px;
+      padding: 12px 20px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background-color: #ffb6c1;
+    }
+
+    footer {
+      background: #222;
+      color: #ddd;
+      text-align: center;
+      padding: 20px;
+    }
+
+    footer a {
+      color: #87cefa;
+      text-decoration: none;
+    }
+
+    /* Cookie banner */
+    #cookie-banner {
+      position: fixed;
+      bottom: 10px;
+      left: 10px;
+      right: 10px;
+      background: rgba(0,0,0,0.8);
+      color: #fff;
+      padding: 15px;
+      border-radius: 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      z-index: 999;
+    }
+
+    #cookie-banner button {
+      background-color: #87cefa;
+      border: none;
+      color: #fff;
+      padding: 8px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    #cookie-banner button:hover {
+      background-color: #ff7f50;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+      nav a {
+        margin: 10px;
+      }
+      section {
+        padding: 40px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Motherly Connect</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#new-mothers">New Mothers</a>
+      <a href="#experienced-mothers">Experienced Mothers</a>
+      <a href="#privacy">Privacy</a>
+    </nav>
+  </header>
+
+  <div class="hero" id="home">
+    <img src="https://images.unsplash.com/photo-1504151932400-72d4384f04b3?auto=format&fit=crop&w=1200&q=80" alt="Two mothers interacting">
+    <h2>Where Mothers Help Mothers — Because a Mother Always Knows Best</h2>
+    <p>Motherly Connect is a nurturing space for women to connect, share, and grow together. Whether you’re a first-time mom seeking guidance or an experienced mother ready to lend a hand, we are here to build bridges of care, compassion, and community.</p>
+  </div>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>At <strong>Motherly Connect</strong>, we believe that motherhood should never feel lonely. We’re a community of mothers from around the world, united by empathy, love, and understanding. Our mission is to help every mom — new or experienced — feel supported and valued.</p>
+    <p>Our platform allows new moms to seek help, share their challenges, and get matched with experienced mothers who offer guidance and encouragement. Every story, every struggle, and every success is worth sharing here.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="card">
+      <h3>1. Mother Matching</h3>
+      <p>We personally match each new mom with an experienced mother who can provide personalized guidance, emotional support, and practical tips for daily challenges.</p>
+    </div>
+    <div class="card">
+      <h3>2. Support & Resources</h3>
+      <p>From sleep training to nutrition, from postpartum care to emotional wellness — our community shares helpful resources and proven advice.</p>
+    </div>
+    <div class="card">
+      <h3>3. Community Forum</h3>
+      <p>Join group discussions, share your stories, and celebrate milestones with mothers who truly understand your journey.</p>
+    </div>
+  </section>
+
+  <section id="new-mothers">
+    <h2>For New Mothers</h2>
+    <p>If you’re a new mother looking for reassurance or answers, simply fill out the form below. We’ll connect you with a caring, experienced mom who understands what you’re going through — because she’s been there too.</p>
+    <form class="form-container">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="What kind of support do you need?" rows="4"></textarea>
+      <button type="submit">Request a Match</button>
+    </form>
+  </section>
+
+  <section id="experienced-mothers">
+    <h2>For Experienced Mothers</h2>
+    <p>Share your wisdom, kindness, and lessons learned. Your experience can change a new mom’s life. Join our mentorship program and offer your guidance to someone who needs it most.</p>
+    <form class="form-container">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Describe your experience and how you’d like to help..." rows="4"></textarea>
+      <button type="submit">Join as a Mentor</button>
+    </form>
+  </section>
+
+  <section id="privacy">
+    <h2>Privacy & Cookies</h2>
+    <p>Your privacy matters to us. At Motherly Connect, we collect only the necessary information to connect you with other mothers safely and securely. We do not share your personal data with third parties without consent.</p>
+    <p>We use cookies to improve your browsing experience and remember your preferences. By using our website, you agree to our cookie and privacy policy.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Motherly Connect. All rights reserved.</p>
+    <p>Contact us: <a href="mailto:motherlyconnect@gmail.com">motherlyconnect@gmail.com</a></p>
+  </footer>
+
+  <div id="cookie-banner">
+    <span>We use cookies to ensure you get the best experience on our website.</span>
+    <button onclick="acceptCookies()">Got it!</button>
+  </div>
+
+  <script>
+    function acceptCookies() {
+      document.getElementById('cookie-banner').style.display = 'none';
+      localStorage.setItem('cookiesAccepted', 'true');
+    }
+    if (localStorage.getItem('cookiesAccepted')) {
+      document.getElementById('cookie-banner').style.display = 'none';
+    }
+  </script>
+</body>
+</html>
